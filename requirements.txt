@@ -1,7 +1,6 @@
 streamlit
-dotenv
-langchain_groq 
-langchain.text_splitter 
-langchain_huggingface 
-langchain_community.vectorstores 
-langchain.prompts 
+python-dotenv
+langchain-groq 
+langchain
+langchain-huggingface 
+langchain-community
