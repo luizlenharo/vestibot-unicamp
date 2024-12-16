@@ -1,5 +1,7 @@
 import os
+
 from langchain_groq import ChatGroq
+import streamlit as st
 from langchain.text_splitter import CharacterTextSplitter
 from langchain_huggingface import HuggingFaceEmbeddings
 from langchain_community.vectorstores import FAISS
@@ -7,7 +9,7 @@ from langchain.prompts import ChatPromptTemplate, SystemMessagePromptTemplate, H
 
 class Bot():
     def __init__(self):
-        self.api_key = os.getenv("GROQ_API_KEY")
+        self.api_key = st.secrets["GROQ_API_KEY"]
         self.llm_model = ChatGroq(
             model="llama3-70b-8192",
             temperature=0,
