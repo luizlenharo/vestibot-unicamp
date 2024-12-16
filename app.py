@@ -6,8 +6,8 @@ from Bot import Bot
 def main():
     dotenv.load_dotenv()
     # App page config
-    st.set_page_config(page_title="ChatBot Unicamp", page_icon=":books:", layout="wide")
-    st.header("ChatBot Vestibular Unicamp 2025:books:")
+    st.set_page_config(page_title="Vestibot Unicamp", page_icon=":books:", layout="wide")
+    st.header("Vestibot Unicamp 2025:books:")
     #st.write(css, unsafe_allow_html=True)
 
     if "conversation" not in st.session_state:
