@@ -1,10 +1,8 @@
 import streamlit as st
-import dotenv
 from Bot import Bot
 
 
 def main():
-    dotenv.load_dotenv()
     # App page config
     st.set_page_config(page_title="Vestibot Unicamp", page_icon=":books:", layout="wide")
     st.header("Vestibot Unicamp 2025:books:")
