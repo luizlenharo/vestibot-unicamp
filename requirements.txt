@@ -3,3 +3,4 @@ langchain-groq
 langchain
 langchain-huggingface 
 langchain-community
+faiss-cpu
